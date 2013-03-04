@@ -11,11 +11,11 @@ module.exports = function (grunt) {
     })));
 
     this.files.forEach(function (file) {
-      file.src.forEach(function (file) {
-        var content = grunt.file.read(file);
-        content = ngmin.annotate(content);
-        grunt.file.write(file, content);
-      });
+      var contents = file.src
+        .map(grunt.file.read)
+        .map(ngmin.annotate)
+        .join('');
+      grunt.file.write(file.dest, contents);
     });
 
   });
