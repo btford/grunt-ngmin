@@ -23,6 +23,6 @@
   "author": "Brian Ford",
   "license": "BSD",
   "dependencies": {
-    "ngmin": "~0.0.4"
+    "ngmin": "~0.3.0"
   }
 }
