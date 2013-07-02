@@ -1,6 +1,6 @@
 {
   "name": "grunt-ngmin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Grunt task for minifying AngularJS projects",
   "main": "Gruntfile.js",
   "scripts": {
