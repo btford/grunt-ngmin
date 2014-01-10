@@ -20,6 +20,7 @@
   },
   "keywords": [
     "grunt",
+    "gruntplugin",
     "angular",
     "angularjs",
     "minify"
