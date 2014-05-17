@@ -6,9 +6,11 @@ module.exports = function (grunt) {
 
   grunt.registerMultiTask('ngmin', 'Annotate AngularJS scripts for minification', function () {
 
-    grunt.log.writeln('ngminifying ' + grunt.log.wordlist(this.files.map(function (file) {
+    grunt.verbose.writeln('ngminifying ' + grunt.log.wordlist(this.files.map(function (file) {
       return file.src;
     })));
+
+    grunt.verbose.or.writeln('ngminifying ' + this.files.length + ' file(s)');
 
     this.files.forEach(function (file) {
       var contents = file.src
