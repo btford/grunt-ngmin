@@ -8,11 +8,11 @@
   },
   "devDependencies": {
     "grunt": "~0.4.0",
-    "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-clean": "~0.4.0",
-    "grunt-mocha-cli": "~1.0.1",
-    "should": "~1.2.2",
-    "grunt-release": "~0.3.1"
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-mocha-cli": "~1.9.0",
+    "should": "~4.0.4",
+    "grunt-release": "~0.7.0"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,6 @@
   "author": "Brian Ford",
   "license": "BSD",
   "dependencies": {
-    "ngmin": "~0.4.0"
+    "ngmin": "~0.5.0"
   }
 }
