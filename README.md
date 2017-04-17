@@ -2,7 +2,7 @@
 
 Try using [grunt-ng-annotate](https://www.npmjs.org/package/grunt-ng-annotate) instead. If something doesn't work there, open an issue there.
 
-#grunt-ngmin
+# grunt-ngmin
 
 Grunt plugin for pre-minifying Angular apps. Learn why this is awesome by reading up on the [ngmin](https://github.com/btford/ngmin) cli tool.
 
@@ -43,7 +43,7 @@ ngmin: {
 },
 ```
 
-##Running the Tests
+## Running the Tests
 Run `grunt test`.
 
 ## License
